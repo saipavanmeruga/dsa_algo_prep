@@ -1,17 +1,18 @@
 #include<iostream>
 
-int numberOfDigits(int n)
+int countnumberOfDigits(int n)
 {
-    int num1 = (int)(log10(n) + 1);
+    // int num1 = (int)(log10(n) + 1);
+
     int count = 0;          
     while(n > 0)
     {
-        num1 = n % 10;
-        std::cout<<num1<<std::endl;
+        // num1 = n % 10;
+        // std::cout<<num1<<std::endl;
         count += 1;
         n = n/10;
     }
-    return num1;    
+    return count;    
 
 }
 int main()
@@ -19,6 +20,6 @@ int main()
     int num;
     std::cout<<"Enter the number"<<std::endl;
     std::cin>>num;
-    int cont = numberOfDigits(num);
+    int cont = countnumberOfDigits(num);
     std::cout<<cont;
 }
