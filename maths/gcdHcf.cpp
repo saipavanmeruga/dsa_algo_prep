@@ -27,5 +27,4 @@ int main()
     }
     std::cout<< "efficient gcf is: " << gcf_eff << std::endl;
     return 0;
-
 }
