@@ -2,6 +2,10 @@
 
 int main()
 {
+    /*
+    This GCD Algorithm based on the modulo logic,
+    The fundamental logic is to use the remainder operator %
+    */
     int a, b;
     std::cout<<"enter two numbers"<<std::endl;
     std::cin>> a >> b;
