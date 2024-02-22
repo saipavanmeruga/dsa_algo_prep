@@ -13,6 +13,7 @@
  * When the function runs out of memory then it is called stack overflow
  * THE specific condition is called base condition.
 */
+#include<iostream>
 int main()
 {
     return 0;
